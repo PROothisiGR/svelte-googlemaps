@@ -21,7 +21,7 @@
 
     if (!$mapsLoading) {
       const url = [
-        '//maps.googleapis.com/maps/api/js?',
+        'https://maps.googleapis.com/maps/api/js?',
         apiKey ? `key=${apiKey}&` : '',
         'libraries=places&callback=byGmapsReady'
       ].join('')
