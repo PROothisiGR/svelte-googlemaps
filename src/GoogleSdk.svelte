@@ -23,7 +23,7 @@
       const url = [
         'https://maps.googleapis.com/maps/api/js?',
         apiKey ? `key=${apiKey}&` : '',
-        'libraries=places&callback=byGmapsReady'
+        'callback=byGmapsReady'
       ].join('')
 
       mapsLoading.set(true)
